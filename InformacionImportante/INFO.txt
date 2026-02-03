@@ -1,0 +1,13 @@
+1- El primer paso es siempre crear el túnel SSH que conecta el proyecto con la BD. Pasos:
+    - En Powershell ejecutar el comando que hay en ComandoConexionTunel.txt
+    - Se creará el túnel y nunca cerrar la terminal o se cierra y toca volver a crearlo
+    - Para comprobar su conexión, en otra terminal ejecutar: nc -vz 127.0.0.1 3307. Deberá devolver "succeeded".
+
+
+2-Cuando se pretenda hacer commit para luego hacer un push, el commit que sea especifico con lo que se ha hecho. 
+No una biblia pero si 3 o 4 palabras resumiendo lo que se hizo.
+
+3- Hacer JAVADoc, es decir, hagas lo que hagais, le pedis a ChatGPT o quien sea que colque al inicio del código en cada clase
+una breve descripción de lo que hace el codigo o de que se encarga la clase, asi será menos lioso a la hora de buscar, hacer nuevas implementaciones
+y reparar errores y bugs. 
+    
